@@ -1,22 +1,23 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <header className="flex justify-between py-3 px-5 absolute w-full text-white">
         <div className="logo">
-          <h2 className="text-3xl lg:text-5xl">
-            <Link to="/">TsbSankara</Link>
+          <h2 className="text-3xl lg:text-5xl font-mono">
+            <Link to="/">Tanvir</Link>
+            <span className="font-bold text-green-500">.</span>
           </h2>
         </div>
 
         <nav>
           <ul className="flex">
-            <li className="mr-5">
+            <li className="mr-7">
               <Link to="/">Home</Link>
             </li>
-            <li className="mr-5">
+            <li className="mr-7">
               <Link to="/projects">Projects</Link>
             </li>
             <li>
@@ -31,7 +32,7 @@ const Header = () => {
         </nav>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

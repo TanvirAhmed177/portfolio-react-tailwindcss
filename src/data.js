@@ -1,12 +1,12 @@
 const data = [
   {
     id: 1,
-    path: "./images/Autorepair.png",
+    path: "./images/Autoreapir.png",
     desc: "Autorepair project",
   },
   {
     id: 2,
-    path: "./images/Autorepair.png",
+    path: "./images/Cybershop.png",
     desc: "Cybershop project",
   },
   {

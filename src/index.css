@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,19 +6,15 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-}
-
-.logo h2 {
-  font-family: 'Hanalei Fill', cursive;
 }
 
 /* Showcase */
 .showcase {
   height: 100vh;
-  background: url('./assets/showcase.jpg') no-repeat center/cover;
+  background: url("./assets/showcase-2.jpg") no-repeat center/cover;
 }
 
 .showcase .overlay {
