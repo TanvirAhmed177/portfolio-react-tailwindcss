@@ -7,8 +7,8 @@ const Showcase = () => {
       <section className="showcase">
         <div className="overlay flex flex-col items-center justify-center text-white px-5">
           <h1 className="text-5xl font-bold text-right mb-10 lg:text-center lg:text-7xl lg:px-56">
-            I create <span className="text-green-500">brand awareness</span> for
-            small business
+            Hi, I'm <span className="text-green-500">Tanvir Ahamed</span> I'm a
+            full-stack web developer.
           </h1>
 
           <div className="ml-auto lg:ml-0">
